@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -7.809
+TNS   : -314.521
+
+Type  : Slow 1200mV 85C Model Setup 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -1.594
+TNS   : -1.594
+
+Type  : Slow 1200mV 85C Model Hold 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -1.204
+TNS   : -1.204
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.977
+TNS   : -0.977
+
+Type  : Slow 1200mV 85C Model Removal 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -1.129
+TNS   : -1.129
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -78.022
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'instruction_decoder:instr_decoder|ir[5]'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -6.995
+TNS   : -285.221
+
+Type  : Slow 1200mV 0C Model Setup 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -1.471
+TNS   : -1.471
+
+Type  : Slow 1200mV 0C Model Hold 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -1.046
+TNS   : -1.046
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.896
+TNS   : -0.896
+
+Type  : Slow 1200mV 0C Model Removal 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.973
+TNS   : -0.973
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -77.846
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:instr_decoder|ir[5]'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -3.333
+TNS   : -138.195
+
+Type  : Fast 1200mV 0C Model Setup 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.402
+TNS   : -0.402
+
+Type  : Fast 1200mV 0C Model Hold 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.668
+TNS   : -0.668
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Fast 1200mV 0C Model Removal 'instruction_decoder:instr_decoder|ir[5]'
+Slack : -0.630
+TNS   : -0.630
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -60.465
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:instr_decoder|ir[5]'
+Slack : 0.429
+TNS   : 0.000
+
+------------------------------------------------------------

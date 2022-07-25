@@ -1,0 +1,20 @@
+module program_sequencer(
+input clk,sync_reset,jmp,jmp_nz,dont_jmp,
+input [3:0] jmp_addr,
+output [7:0] pm_addr);
+
+reg [7:0] pc;
+
+always @ (posedge clk)
+	pc = pm_addr
+
+always @ *
+	if (sync_reset)
+		pm_addr = 8'h0;
+	else if(jmp)
+		pm_addr = 
+		
+
+
+
+endmodule
